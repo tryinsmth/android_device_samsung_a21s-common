@@ -115,8 +115,8 @@ PRODUCT_PACKAGES += \
     fastbootd
 
 # FastCharge
-PRODUCT_PACKAGES += \
-    vendor.lineage.fastcharge@1.0-service.samsung
+#PRODUCT_PACKAGES += \
+#    vendor.aosp.fastcharge@1.0-service.samsung
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
@@ -158,9 +158,9 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,samsungVars,target_keymaster4_library,//vendor/samsung/a21s-common:libskeymaster4device)
 
-# Lineage Health
+# aosp Health
 PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
+    vendor.android.health-service.default
 
 # Media
 PRODUCT_COPY_FILES += \
