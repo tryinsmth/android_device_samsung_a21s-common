@@ -15,7 +15,7 @@
 
 COMMON_PATH := device/samsung/a21s-common
 
-## Inherit proprietary vendor configuartion
+## Inherit proprietary vendor configuration
 include vendor/samsung/a21s-common/BoardConfigVendor.mk
 
 ## Architecture
