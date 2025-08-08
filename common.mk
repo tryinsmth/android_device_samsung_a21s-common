@@ -160,7 +160,7 @@ $(call soong_config_set,samsungVars,target_keymaster4_library,//vendor/samsung/a
 
 # aosp Health
 PRODUCT_PACKAGES += \
-    vendor.android.health-service.default
+    vendor.lineage.health-service.default
 
 # Media
 PRODUCT_COPY_FILES += \
